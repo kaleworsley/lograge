@@ -6,8 +6,8 @@ gemspec
 gem 'pry', group: :development
 
 group :test do
-  gem 'actionpack', '4.2.6'
-  gem 'activerecord', '4.2.6'
+  gem 'actionpack', '~> 5.0'
+  gem 'activerecord', '~> 5.0'
   # logstash does not release any gems on rubygems, but they have two gemspecs within their repo.
   # Using the tag is an attempt of having a stable version to test against where we can ensure that
   # we test against the correct code.
